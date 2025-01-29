@@ -34,11 +34,14 @@ const Consultation = () => {
                      message.success('succesfully send request')
                  }else{
                     message.error(res.data.message)
+                    localStorage.removeItem('token')
+                    window.location.reload()
                  }
             }catch(e){
                 message.error('something went wrong,please try again')
                 console.log(e.message)
                 localStorage.removeItem('token')
+                window.location.reload()
             }
         };
     
