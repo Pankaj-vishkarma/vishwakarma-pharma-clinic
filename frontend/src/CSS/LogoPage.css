@@ -1,0 +1,77 @@
+.main{
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737862560/vishwakarmaPharmacy/medical-technology-online-health-network-260nw-2483306635_j3x26p.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+.name{
+    font-size: 40px;
+}
+
+button{
+    color: rgba(225, 25, 25, 0.995);
+    background-color: rgb(64, 224, 72);
+    border-radius: 20px;
+}
+
+@media (max-width:600px){
+    .main{
+        height: 200px;
+        width: 100%;
+        padding: 10px;
+        background-image: url('https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737863688/vishwakarmaPharmacy/medical-technology-online-health-network-260nw-2483306635_gdnbrs_oudhog.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .name{
+        font-size: 25px;
+    }
+    p{
+        font-size: small;
+    }
+}
+
+@media (min-width:600px){
+    .main{
+        height: 200px;
+        width: 100%;
+        background-image: url('https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737863688/vishwakarmaPharmacy/medical-technology-online-health-network-260nw-2483306635_gdnbrs_oudhog.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width:768px){
+    .main{
+        padding: 30px;
+        height: 250px;
+        width: 100%;
+        background-image: url('https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737863567/vishwakarmaPharmacy/medical-technology-online-health-network-260nw-2483306635_gdnbrs_a6rase.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width:992px){
+    .main{
+        height: 300px;
+        width: 100%;
+        background-image: url('https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737863019/vishwakarmaPharmacy/medical-technology-online-health-network-260nw-2483306635_gdnbrs.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width:1200px){
+    .main{
+        height: 300px;
+        width: 100%;
+        background-image: url('https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737862560/vishwakarmaPharmacy/medical-technology-online-health-network-260nw-2483306635_j3x26p.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

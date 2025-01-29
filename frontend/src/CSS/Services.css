@@ -1,0 +1,63 @@
+.main-services{
+  background-image: url("https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737949697/vishwakarmaPharmacy/9508803_26807_eopgxi.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.down{
+    background-color: #b3f7ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+@media (max-width:768px){
+  .down{
+    padding: 15px;
+  }
+  h3{
+    font-family: 1 rem;
+  }
+  p{
+    font-size: 1 rem;
+  }
+}
+
+@media(max-width:480px){
+  .down{
+    width:90%
+  }
+  h2{
+    font-size: 1.2 rem;
+  }
+}
+
+h2{
+  font-size: clamp(1.5 rem,2 vw,2 rem);
+}
+
+p{
+  font-size: clamp(1 rem,1.5 vw,1.2 rem);
+}
+
+button{
+  padding: 10px 20px;
+  font-size:1 rem;
+  background-color: black;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+Link{
+  background-color: aliceblue;
+}
+
+button:hover{
+  background-color: #005f6b;
+}
