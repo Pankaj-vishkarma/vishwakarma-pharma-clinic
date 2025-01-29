@@ -50,11 +50,14 @@ const BookingPage = () => {
              }else{
                 message.error(res.data.message)
                 localStorage.removeItem('token')
+                window.location.reload()
              }
 
         }catch(e){
            message.error('Booking is full,please try another day')
            console.log(e.message)
+           localStorage.removeItem('token')
+           window.location.reload()
         }
         
     }
