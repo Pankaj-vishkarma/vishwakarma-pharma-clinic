@@ -23,7 +23,7 @@ const BookingPage = () => {
                headers:{
                 Authorization: "Bearer " + localStorage.getItem("token"),
                },
-               url:['http://localhost:1234/message/senduser'],
+               url:['https://vishwakarma-pharma-clinic.onrender.com/message/senduser'],
                withCredentials:true,
                data:formData
         })
@@ -37,7 +37,7 @@ const BookingPage = () => {
                headers:{
                 Authorization: "Bearer " + localStorage.getItem("token"),
                },
-               url:['http://localhost:1234/message/sendmessage'],
+               url:['https://vishwakarma-pharma-clinic.onrender.com/message/sendmessage'],
                withCredentials:true,
                data:formData
              })
