@@ -6,7 +6,7 @@ const CardDoctor = () => {
       <div className="row">
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-10">
-            <img src="https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737965779/WhatsApp_Image_2025-01-27_at_13.28.49_739177c2_gmpnur.jpg" className="card-img-top" alt="Card" />
+            <img src="https://res.cloudinary.com/dwvbh2jdy/image/upload/v1737965779/vishwakarmaPharmacy/WhatsApp_Image_2025-01-27_at_13.28.49_739177c2_gmpnur.jpg" className="card-img-top" alt="Card" />
             <div className="card-body">
               <h5 className="card-title">Dr Harishankar Vishwakarma</h5>
               <p className="card-text">
