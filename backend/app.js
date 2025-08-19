@@ -17,7 +17,10 @@ app.use(cors({
 app.use(bodyparser.json())
 app.use(cookieparser())
 app.use(express.json())
-app.use('/',router)
+app.use('/api',router)
 app.use('/message',message_router)
+app.use('/',(req,res)=>{
+    res.send('server is running')
+})
 
 module.exports=app

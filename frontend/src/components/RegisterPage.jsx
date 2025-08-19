@@ -21,7 +21,7 @@ const LoginPage = () => {
         try{
            const res=await axios({
               method:'post',
-              url:['https://vishwakarma-pharma-clinic-1.onrender.com/signup'],
+              url:['https://vishwakarma-pharma-clinic-1.onrender.com/api/signup'],
               withCredentials:true,
               data:formData
            })
