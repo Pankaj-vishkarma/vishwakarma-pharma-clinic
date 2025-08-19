@@ -25,7 +25,7 @@ const Consultation = () => {
                     headers:{
                         Authorization: "Bearer " + localStorage.getItem("token"),
                        },
-                    url:['https://vishwakarma-pharma-clinic.onrender.com/message/getconsultation'],
+                    url:['https://vishwakarma-pharma-clinic-1.onrender.com/message/getconsultation'],
                     withCredentials:true,
                     data:formData
                  })
