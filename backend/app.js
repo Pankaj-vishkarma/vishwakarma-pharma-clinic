@@ -11,7 +11,7 @@ const cookieparser=require('cookie-parser')
 database()
 app.use(cors({
     origin:['https://vishwakarmapharmaclinic.onrender.com'],
-    methods:['GET','POST'],
+    methods:['GET','POST','PUT','DELETE'],
     credentials:true
 }))
 app.use(bodyparser.json())
